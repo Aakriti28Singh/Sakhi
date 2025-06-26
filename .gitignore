@@ -1,0 +1,42 @@
+# === BUILD ===
+/target/
+build/
+test-output/
+
+# === LOGS ===
+*.log
+logs/
+**/logs/
+
+# === ENV FILES ===
+.env
+
+# === STS ===
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# === NetBeans ===
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# === VS Code ===
+.vscode/
+
+# === OS JUNK ===
+.DS_Store
+Thumbs.db
