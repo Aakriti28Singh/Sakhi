@@ -20,9 +20,9 @@ Sakhi’s mission is to help survivors take their first steps toward healing and
 | **Page** | **Screenshot** |
 |----------------|----------------|
 | **Home Page** | <img width="1897" height="861" alt="Home_page" src="https://github.com/user-attachments/assets/0c45c0aa-dd06-4707-88fb-8e02bed89d84" />|
-| **Login Page** | ![Add_NGO](https://github.com/user-attachments/assets/08a6fdec-d99b-46b5-98a9-371af33c117d)|
+| **Login Page** |<img width="1900" height="860" alt="Sign" src="https://github.com/user-attachments/assets/ad6f39db-c554-494a-9e9b-71b5d5751f0c" />|
 | **User Dashboard** | <img width="1897" height="864" alt="User_dashboard" src="https://github.com/user-attachments/assets/12e6f54f-3eed-4a05-8bdc-0d68f29b4a12" />|
-| **NGO Submission Form** |![Sign_in](https://github.com/user-attachments/assets/0f510235-e65d-4675-b400-8aeb1783199f)|
+| **NGO Submission Form** |<img width="1897" height="865" alt="ngos" src="https://github.com/user-attachments/assets/89912142-3b62-44f5-809c-5e7a5183585d" />|
 | **Admin Panel** | <img width="1812" height="748" alt="admin_dashbaord" src="https://github.com/user-attachments/assets/0ce17f7d-34e9-421c-91a8-177c18aebf36" />|
 | **NGO List (Public) filtered by city** | <img width="1891" height="750" alt="image" src="https://github.com/user-attachments/assets/cb4cb4bc-ce6f-4ede-b5b7-7b925ca4efe1" />|
 
