@@ -19,18 +19,18 @@ Sakhi’s mission is to help survivors take their first steps toward healing and
 
 | **Page** | **Screenshot** |
 |----------------|----------------|
-| **Home Page** | ![Home](./Screenshots/Home_page.png) |
-| **Login Page** | ![Login](./Screenshots/Sign_in.png) |
-| **User Dashboard** | ![Dashboard](./Screenshots/User_dashboard.png) |
-| **NGO Submission Form** | ![NGO Form](./Screenshots/Add_NGO.png) |
-| **Admin Panel** | ![Admin Panel](./Screenshots/admin_dashboard.png) |
-| **NGO List (Public) filtered by city** | ![NGO List](./Screenshots/filter_dashboard.png) |
+| **Home Page** | <img width="1897" height="861" alt="Home_page" src="https://github.com/user-attachments/assets/0c45c0aa-dd06-4707-88fb-8e02bed89d84" />|
+| **Login Page** | <img width="878" height="859" alt="Sign_in" src="https://github.com/user-attachments/assets/9ca30bc2-e0a3-480b-b2cc-7d6d37e01a5a" />|
+| **User Dashboard** | <img width="1897" height="864" alt="User_dashboard" src="https://github.com/user-attachments/assets/12e6f54f-3eed-4a05-8bdc-0d68f29b4a12" />|
+| **NGO Submission Form** |<img width="702" height="823" alt="Add_NGO" src="https://github.com/user-attachments/assets/8f832cdd-c931-4231-a30c-d1c2f82517f3" />|
+| **Admin Panel** | <img width="1812" height="748" alt="admin_dashbaord" src="https://github.com/user-attachments/assets/0ce17f7d-34e9-421c-91a8-177c18aebf36" />|
+| **NGO List (Public) filtered by city** | <img width="1891" height="750" alt="image" src="https://github.com/user-attachments/assets/cb4cb4bc-ce6f-4ede-b5b7-7b925ca4efe1" />|
 
 
 ## 🛠️ Tech Stack
-Frontend: Next.js
-Backend: Spring Boot, JWT, MongoDB 
-Deployment: Render
+-Frontend: Next.js
+-Backend: Spring Boot, JWT, MongoDB 
+-Deployment: Render
 
 
 ## 🌐 Live Demo
