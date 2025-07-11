@@ -19,12 +19,12 @@ Sakhi’s mission is to help survivors take their first steps toward healing and
 
 | **Page** | **Screenshot** |
 |----------------|----------------|
-| **Home Page** | ![Login](./screenshots/Home_page.png) |
-| **Login Page** | ![Login](./screenshots/Sign_in.png) |
-| **User Dashboard** | ![Dashboard](./screenshots/User_dashboard.png) |
-| **NGO Submission Form** | ![NGO Form](./screenshots/Add_NGO.png) |
-| **Admin Panel** | ![Admin Panel](./screenshots/admin_dashboard.png) |
-| **NGO List (Public) filtered by city** | ![NGO List](./screenshots/filter_dashboard.png) |
+| **Home Page** | ![Home](./Screenshots/Home_page.png) |
+| **Login Page** | ![Login](./Screenshots/Sign_in.png) |
+| **User Dashboard** | ![Dashboard](./Screenshots/User_dashboard.png) |
+| **NGO Submission Form** | ![NGO Form](./Screenshots/Add_NGO.png) |
+| **Admin Panel** | ![Admin Panel](./Screenshots/admin_dashboard.png) |
+| **NGO List (Public) filtered by city** | ![NGO List](./Screenshots/filter_dashboard.png) |
 
 
 ## 🛠️ Tech Stack
