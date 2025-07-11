@@ -38,8 +38,7 @@ public class NGOController {
     @PostMapping(value="/save",consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     public ResponseEntity<?> createNGO(
             @RequestPart("ngo") NGODTO dto,
-            @RequestPart("file") MultipartFile file,
-            @RequestHeader("Authorization") String token) {
+            @RequestPart("file") MultipartFile file) {
         try {
             String userEmail = SecurityContextHolder.getContext().getAuthentication().getName();
             Map<?, ?> uploadResult = cloudinary.uploader().upload(file.getBytes(), ObjectUtils.emptyMap());
@@ -101,12 +100,8 @@ public class NGOController {
     }
 
     @GetMapping("/user")
-    public List<NGODTO> getUserNGOs(@RequestHeader("Authorization") String token) {
-        JwtUtil jwtUtil = new JwtUtil();
-        if (token.startsWith("Bearer ")) {
-            token = token.substring(7);
-        }
-        String email = jwtUtil.extractUsername(token);
+    public List<NGODTO> getUserNGOs() {
+        String email = SecurityContextHolder.getContext().getAuthentication().getName();
         return ngoRepository.findByUserEmail(email)
                 .stream()
                 .map(this::convertToDTO)
