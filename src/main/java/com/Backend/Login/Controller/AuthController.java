@@ -31,7 +31,6 @@ public class AuthController {
         return ResponseEntity.ok("OK");
     }
 
-
     @PostMapping("/register")
     public ResponseEntity<?> register(@RequestBody User user) {
         if (userService.findByEmail(user.getEmail()) != null) {
