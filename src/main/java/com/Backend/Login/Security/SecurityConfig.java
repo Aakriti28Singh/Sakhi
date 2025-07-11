@@ -38,7 +38,7 @@ public class SecurityConfig {
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/api/ngos/**").hasRole("USER")
                         .requestMatchers("/api/admin/**").hasRole("ADMIN")
-                        .requestMatchers("/api/auth/register", "/api/auth/login", "/api/auth/adminlogin","/api/NGOPage/public", "/api/NGOPage/cities").permitAll()
+                        .requestMatchers("/api/auth/register", "/api/auth/login","/api/auth/health" ,"/api/auth/adminlogin","/api/NGOPage/public", "/api/NGOPage/cities").permitAll()
                         .requestMatchers("/api/user/**").authenticated()
                         .anyRequest().authenticated()
                 )

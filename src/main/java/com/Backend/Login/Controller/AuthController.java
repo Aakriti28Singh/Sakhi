@@ -26,6 +26,12 @@ public class AuthController {
     @Autowired
     private JwtUtil jwtUtil;
 
+    @GetMapping("/health")
+    public ResponseEntity<String> health() {
+        return ResponseEntity.ok("OK");
+    }
+
+
     @PostMapping("/register")
     public ResponseEntity<?> register(@RequestBody User user) {
         if (userService.findByEmail(user.getEmail()) != null) {
@@ -61,20 +67,18 @@ public class AuthController {
 
     @PostMapping("/adminlogin")
     public ResponseEntity<?> adminLogin(@RequestBody LoginRequest request) {
-        User user = userService.findByEmail(request.getEmail());
-        if (user == null) {
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("User not found.");
-        }
-
-        if (!"ADMIN".equalsIgnoreCase(user.getRole())) {
-            return ResponseEntity.status(HttpStatus.FORBIDDEN).body("Access denied: Not a ADMIN role.");
-        }
-
         try {
             Authentication authentication = authenticationManager.authenticate(
                     new UsernamePasswordAuthenticationToken(request.getEmail(), request.getPassword())
             );
+            User user = userService.findByEmail(request.getEmail());
+            if (user == null) {
+                return ResponseEntity.status(HttpStatus.NOT_FOUND).body("User not found.");
+            }
 
+            if (!"ADMIN".equalsIgnoreCase(user.getRole())) {
+                return ResponseEntity.status(HttpStatus.FORBIDDEN).body("Access denied: Not a ADMIN role.");
+            }
             String token = jwtUtil.generateToken(user.getEmail(), user.getName(), user.getRole());
 
             return ResponseEntity.ok(new LoginResponse(token, user.getEmail(), user.getName()));
