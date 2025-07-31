@@ -1,0 +1,20 @@
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# IDE/editor configs
+.idea/
+*.iml
+.vscode/
+
+# Git-related
+.git
+.gitignore
+
+# Logs
+*.log
+
+# Docker-related
+Dockerfile
+.dockerignore
+
