@@ -8,12 +8,12 @@ The project aims to bridge the gap between survivors and trustworthy support sys
 
 | **Page** | **Screenshot** |
 |----------------|----------------|
-| **Home Page** | <img width="1897" height="861" alt="Home_page" src="https://github.com/user-attachments/assets/0c45c0aa-dd06-4707-88fb-8e02bed89d84" />|
-| **Login Page** |<img width="1900" height="860" alt="Sign" src="https://github.com/user-attachments/assets/ad6f39db-c554-494a-9e9b-71b5d5751f0c" />|
-| **User Dashboard** | <img width="1897" height="864" alt="User_dashboard" src="https://github.com/user-attachments/assets/12e6f54f-3eed-4a05-8bdc-0d68f29b4a12" />|
-| **NGO Submission Form** |<img width="1897" height="865" alt="ngos" src="https://github.com/user-attachments/assets/89912142-3b62-44f5-809c-5e7a5183585d" />|
-| **Admin Panel** | <img width="1812" height="748" alt="admin_dashbaord" src="https://github.com/user-attachments/assets/0ce17f7d-34e9-421c-91a8-177c18aebf36" />|
-| **NGO List (Public) filtered by city** | <img width="1891" height="750" alt="image" src="https://github.com/user-attachments/assets/cb4cb4bc-ce6f-4ede-b5b7-7b925ca4efe1" />|
+| **Home Page** | <img width="1902" height="860" alt="image" src="https://github.com/user-attachments/assets/fc99d6ea-7f2e-494e-971f-5cf5bb3a36bd" />|
+| **Login Page** |<img width="1897" height="862" alt="image" src="https://github.com/user-attachments/assets/985d5f29-1cfd-442a-a68c-f10f5cb6a277" />|
+| **User Dashboard** | <img width="1898" height="747" alt="image" src="https://github.com/user-attachments/assets/cf1d47bc-45c9-4685-9c24-622eb1e9155f" />|
+| **NGO Submission Form** |<img width="1507" height="830" alt="image" src="https://github.com/user-attachments/assets/6dfbe9f3-925c-4cb3-8ec1-a435df399b17" />|
+| **Admin Panel** | <img width="1901" height="747" alt="image" src="https://github.com/user-attachments/assets/c6d4b8de-5eb0-47df-8868-bca06c1922be" />|
+| **NGO List (Public) filtered by city** | <img width="1712" height="857" alt="image" src="https://github.com/user-attachments/assets/f8fc3c00-348c-4705-8c02-9570dd6db199" />|
 
 ## ✨ Features
 
@@ -23,7 +23,6 @@ The project aims to bridge the gap between survivors and trustworthy support sys
 - 🔍 **Search & Browse** — users can discover NGOs by city or category
 - 🕊️ **Privacy & Security** — user data is kept safe with role-based access control
 - 📈 **Responsive Dashboard** — for managing and viewing submitted NGOs by a user
-
 
 
 ## 🛠️ Tech Stack
